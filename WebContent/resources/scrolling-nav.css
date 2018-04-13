@@ -1,0 +1,117 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.page-scroll.a {
+	    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+.page-scroll.a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.page-scroll.a:focus,
+.page-scroll.a:active {
+    text-decoration: none;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 2px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.col-cust{
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+	
+	
+}
+iframe{
+
+  border:none;
+  -moz-box-shadow: inset 0 1px 15px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: inset 0 1px 15px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: inset 0 1px 15px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cont-cust{
+	padding-left: 2px;
+	padding-right: 2px;
+
+	
+}
+.row-cust{
+	
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+	
+}
+
+.panel-cust{
+	
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 3px;
+    background: 	#3b5998;
+	  box-sizing: border-box 3px;
+	   -webkit-box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.ebiz-section {
+    height: 100%;
+    padding-top: 60px;
+    text-align: top;
+     vertical-align: text-top;
+    background: #559e83;
+    paddiding-left: 15px;
+    paddiding-right: 15px;
+}
+
+.jet-section {
+    height: 100%;
+    padding-top: 55px;
+    paddiding-left: 2px;
+    paddiding-right: 2px;
+    vertical-align: text-top;
+    background: #c3cb71;
+    paddiding-left: 2px;
+    paddiding-right: 2px;
+}
+
